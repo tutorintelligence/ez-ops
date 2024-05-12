@@ -6,8 +6,8 @@ from typing import (
     TypeVar,
 )
 
-from ez_parser.parser_node import ParserNode
-from ez_parser.parser_tree import ArgParserTree
+from ez_ops.ez_parser.parser_node import ParserNode
+from ez_ops.ez_parser.parser_tree import ArgParserTree
 
 ParentNode = ParserNode | str
 

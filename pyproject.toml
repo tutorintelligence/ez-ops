@@ -1,10 +1,10 @@
 [tool.poetry]
-name = "ez-parser"
+name = "ez-ops"
 version = "0.1.0"
-description = "This is a thin wrapper around the python argparse library to remove typing issues and repeated boilerplate code"
+description = "The ez-ops package provides a suite of utility functions for building a python DevOps platform from the ground up."
 authors = ["Dani Lerner <dlerner97@gmail.com>"]
 packages = [
-    { include = "ez_parser" }
+    { include = "ez_ops" },
 ]
 license = "MIT"
 readme = "README.md"

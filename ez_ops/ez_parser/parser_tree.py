@@ -6,7 +6,7 @@ from typing import (
 )
 
 from anytree.search import PreOrderIter, findall_by_attr
-from ez_parser.parser_node import ParserNode
+from ez_ops.ez_parser.parser_node import ParserNode
 
 ParentNode = ParserNode | str
 
