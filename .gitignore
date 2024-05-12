@@ -1,0 +1,8 @@
+*_copy*
+__pycache__
+bin
+lib
+lib64
+share
+pyvenv.cfg
+*.DS_Store

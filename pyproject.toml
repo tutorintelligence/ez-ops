@@ -3,13 +3,24 @@ name = "ez-parser"
 version = "0.1.0"
 description = "This is a thin wrapper around the python argparse library to remove typing issues and repeated boilerplate code"
 authors = ["Dani Lerner <dlerner97@gmail.com>"]
+packages = [
+    { include = "ez_parser" }
+]
 license = "MIT"
 readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.10"
+anytree = "^2.12.1"
+mypy = "^1.10.0"
+isort = "^5.13.2"
+flake8 = "^7.0.0"
+black = "^24.4.2"
 
 
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+style = "poetry_scripts:style"
